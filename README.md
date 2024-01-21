@@ -1,6 +1,6 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
-## Module 03 Challenge
+## Module 05 Challenge
 Since this is an odd-numbered module, the challenge is on-the-job ticket or feature request challenge. I am given a starter code in a folder called 'Develop'.
 
 ## My Task
@@ -41,3 +41,5 @@ The following animation demonstrates the application functionality:
 <!-- @TODO: create ticket to review/update image) -->
 ![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
 
+* [Click here for the URL of the deployed application.](https://badrulborhanudin.github.io/work-day-scheduler/)
+* [Click here fo the URL of the GitHub repository, with a unique name and a README that describes this project.](https://github.com/badrulborhanudin/work-day-scheduler.git)
