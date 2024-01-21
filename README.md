@@ -42,4 +42,4 @@ The following animation demonstrates the application functionality:
 ![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
 
 * [Click here for the URL of the deployed application.](https://badrulborhanudin.github.io/work-day-scheduler/)
-* [Click here fo the URL of the GitHub repository, with a unique name and a README that describes this project.](https://github.com/badrulborhanudin/work-day-scheduler.git)
+* [Click here for the URL of the GitHub repository, with a unique name and a README that describes this project.](https://github.com/badrulborhanudin/work-day-scheduler.git)
