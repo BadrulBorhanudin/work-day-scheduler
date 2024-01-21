@@ -2,6 +2,7 @@ $(function () {
     // Function to save user input to local storage
     function saveToLocalStorage(key, value) {
         localStorage.setItem(key, value);
+        displayEventAddedMessage();
     }
   
     // Function to get user input from local storage
@@ -28,13 +29,19 @@ $(function () {
   
     // Function to display the current date in the header
     function displayCurrentDate() {
-        var currentDate = dayjs().format("dddd, MMMM D");
+        var currentDate = dayjs().format("dddd, MMMM Do");
         $("#currentDay").text(currentDate);
     }
-  
+
+    // Function to display the event added message
+    function displayEventAddedMessage() {
+        var messageContainer = $("#eventAddedMessage");
+        messageContainer.html('Event added to localStorage <i class="far fa-check fa"></i>');
+    }
+
     // Function to dynamically generate time blocks
     function generateTimeBlocks() {
-        var container = $("#timeBlocksContainer");
+        var container = $(".container-lg");
   
         for (var hour = 9; hour <= 17; hour++) {
             var timeBlock = $("<div>")
